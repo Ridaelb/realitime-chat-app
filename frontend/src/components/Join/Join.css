@@ -1,0 +1,29 @@
+.join-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 400px !important;
+    height: 90vh;
+}
+
+.form-container {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.03);
+    border-radius: 12px;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 300%;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    background-color: white !important;
+    font-weight: 700 !important;
+    box-shadow: 0 8px 24px 0 rgba(255, 255, 255, 0.2) !important; 
+}

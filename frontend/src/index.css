@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+  font-family: "Poppins" !important;
+  color: white;
+}
+
+body {
+  overflow: hidden;
+}
+
+html {
+  background-color: #17181f;
+}
+
+::-webkit-input-placeholder {
+  color: white !important;
+  opacity: 0.4 !important;
+}
+
+::-webkit-scrollbar {
+  background: none;
+  border-radius: 10px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.226);
+  border-radius: 10px;
+}
+
+
+
+.MuiInputBase-root {
+  background: none !important;
+  border: .1rem solid white;
+  border-radius: 12px !important;
+  margin-bottom: .3rem;
+  color: white !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none;
+  border-style: none;
+  background: none;
+}
+
+.Mui-focused > fieldset {
+  border-width: 0 !important;
+}
+
+.MuiFormLabel-root {
+  color: white !important;
+}
+
+.MuiButtonBase-root {
+  border-radius: 12px !important;
+  height: 55px;
+  color: #17181f !important;
+}
+
+.MuiPaper-root {
+  background-color: rgba(0, 0, 0, 0.253) !important;
+}

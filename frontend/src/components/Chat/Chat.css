@@ -1,0 +1,39 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 600px !important;
+    height: 100vh;
+}
+
+.chat {
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.253);
+    border-radius: 12px;
+}
+
+.chat-form {
+    display: flex;
+}
+
+.messages {
+    border-radius: 8px;
+    max-height: 60vh;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.infobar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.online-users {
+    display: flex;
+    align-items: center;
+    height: 23px;
+}
